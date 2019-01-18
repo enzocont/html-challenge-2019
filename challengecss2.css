@@ -1,0 +1,152 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: lightgray;
+  background-color: lightgray;
+  color:#302f2f
+}
+.button{
+  padding: 10px;
+  color:#e9e7e7;
+  background-color:#c20000;
+  text-decoration: none;
+  margin: 10px 0 10px 0;
+}
+.button:hover{
+  background-color:#aa0000;
+}
+.category{
+  width: 90%;
+  border-top-color: lightgray;
+  border-top-style: solid;
+  border-top-width: 2px;
+  margin-top:30px;
+  padding:15px;
+  color:gray;
+}
+h4 {
+  color: #474747;
+  margin:10px;
+  margin-left: 0;
+}
+div.link{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.link a {
+  text-decoration: none;
+  color:#c00000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.link a:hover{
+  color:#d44d4d;
+}
+header{
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+}
+footer{
+  text-align: center;
+  background-color: #202020;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+}
+.blok{
+margin: 10px;
+padding: 10px;
+text-align: left;
+background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #202020;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: gray;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {   
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+.topnav a {
+    display: none;
+}
+.topnav a.icon {
+    float: left;
+    display: block;
+}
+
+.topnav.responsive {position: relative;}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+}
+@media only screen and (min-width: 800px) {
+  header {
+    margin: 0px auto 0px auto;
+    width: 800px;
+    text-align: left;
+  }
+  header *{
+    margin-left: 2vw;
+  }
+  .navitems{
+    margin: 0px auto 0px auto;
+    width: 800px;
+  }
+  .blok{
+    margin: 0;
+    
+
+
+  }
+  section{
+    background-color: lightgray;
+    margin: 0px auto 10px auto;
+    width: 800px;
+    display: grid;
+	grid-column-layout: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    
+    
+  }
+  .gright{
+    grid-column: 3;
+    grid-row: 1 / span 1;
+  }
+  .gright div {
+    margin-bottom: 10px;
+  }
+  .next{
+	  
+  }
+  
+}
